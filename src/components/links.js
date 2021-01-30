@@ -44,12 +44,12 @@ const Links =()=>{
 
     return (
         <>
-            <div>
+            <div className="col-sm-4 mt-2">
             <LinkForm {...{addOrEditLink,currentId,links}}/>
             </div>
-            <div className="col-8">
+            <div className="col-sm-6 mt-2">
                 {links.map((link)=>(
-                    <div className="card mb-1 col-4" key={link.id}>
+                    <div className="card mb-1 col-10" key={link.id}>
                         <div className="card-body">
                             <div className="d-flex justify-content-between">
                             <h4>{link.name}</h4>

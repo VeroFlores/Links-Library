@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <div className="container p-4">
+      <h1 className="font-italic text-center">Saving Notes</h1>
       <div className="row justify-content-around ">
         <Links/>
       </div>
