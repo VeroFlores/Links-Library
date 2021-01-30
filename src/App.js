@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <div className="container p-4">
-      <div className="row">
+      <div className="row justify-content-around ">
         <Links/>
       </div>
       <ToastContainer/>
